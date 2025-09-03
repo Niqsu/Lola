@@ -213,7 +213,9 @@ debug_color = Color(0.999481, 0, 0.111675, 0.42)
 position = Vector2(12, 2)
 
 [node name="coyoteTimer" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.05
 one_shot = true
 
-[node name="jumpTimer" type="Timer" parent="."]
+[node name="jumpBuffer" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
